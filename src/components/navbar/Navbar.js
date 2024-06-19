@@ -7,11 +7,11 @@ import bbm_logo from '../../Assets/BBM_ECOMM.png'
 export default function Navbar() {
   return (
     <nav>
-        <div>
+        <div className='flex mx-auto max-w-7xl px-2 sm:px-6 lg-8'>
             <div>
                 <img src={bbm_logo} alt="" />
             </div>
-            <div>
+            <div className='flex'>
             <div className=''>
                 <Link to='/'>Home</Link>
                 <Link to='/apparel'>Apparel</Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
                 <Link to='/bags'>Bags</Link>
                 <Link to='/office'>Office</Link>
             </div>
-            <div>
+            <div className='flex'>
                 <Link to='/login'>Login</Link>
                 <div>
                     <Link to={'/carts'}>
