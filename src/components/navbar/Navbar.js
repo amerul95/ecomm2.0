@@ -32,7 +32,7 @@ export default function Navbar() {
             <Link className='border rounded-2xl border-slate-800 px-4 py-1 hover:bg-gray-700 hover:text-white hidden lg:block' to='/login'>Login</Link>
             <div className='relative'>
               <Link to={'/carts'}>
-                <img className='w-8 sm:w-full' src={cart} alt="" />
+                <img className='w-6 sm:w-full' src={cart} alt="" />
               </Link>
               <div className='absolute top-0 right-[-20px] rounded-full px-1 text-xs text-white bg-red-600'>10</div>
             </div>
