@@ -12,7 +12,7 @@ export default function footer() {
   return (
     <footer className='footer'>
         <div className='max-w-7xl px-2 mx-auto sm:px-6 lg:px-8 '>
-         <div className='sm:flex basis-1 justify-evenly'>
+         <div className='sm:flex basis-1 justify-between'>
             <div>
                 <Link to='/'><img className='w-36 sm:w-48' src={bbm_small} alt="" /></Link>
                 <p>Customer Guarantee</p>

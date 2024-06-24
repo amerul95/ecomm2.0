@@ -1,12 +1,10 @@
 import React from 'react'
-import Megasale from '../components/megasale/Megasale'
+import { Megasale } from '../components/megasale/Megasale.js';
 
 export default function home() {
   return (
     <div>
-      {/* <Megasale/> */}
-      asdasd
-      asdasd
+      <Megasale/>
     </div>
   )
 }
