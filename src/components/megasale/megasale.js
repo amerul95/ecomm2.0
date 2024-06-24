@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Office() {
+export default function megasale() {
   return (
     <div>
-      choi
+      panbtat
     </div>
   )
 }
