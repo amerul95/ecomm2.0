@@ -33,7 +33,7 @@ export default function footer() {
         <input
           type="text"
           id="email"
-          className="max-w-xs bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-100 focus:border-blue-100 block w-full ps-10 p-2.5"
+          className="outline-none max-w-xs bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-100 focus:border-blue-100 block w-full ps-10 p-2.5"
           placeholder="bbmecom@bbm.com"
         />
       </div>
