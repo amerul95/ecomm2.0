@@ -9,7 +9,7 @@ export default function home() {
   ]
   return (
     <div>
-      <img src={} alt="" />
+
       <Megasale/>
       <PopularProduct/>
       <Subscribe/>

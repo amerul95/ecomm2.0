@@ -1,5 +1,6 @@
 import React from 'react'
 import './popular.css'
+import MultipleItems from '../imageslider/MultipleItems'
 
 export const PopularProduct = () => {
   return (
@@ -8,7 +9,7 @@ export const PopularProduct = () => {
         <h2 className='text-3xl font-semibold'>POPULAR PRODUCTS <hr className='custom-hr'/></h2>
     </div>
     <div>
-      
+      <MultipleItems/>
     </div>
     </div>
 
