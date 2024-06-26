@@ -4,7 +4,7 @@ import './megasale.css'
 
 export const Megasale = () => {
   return (
-    <div className='bg-container max-w-7xl px-2 mx-auto sm:px-6 lg:px-8 m-2 flex my-4 md:my-8 justify-center'>
+    <div className='bg-container max-w-7xl px-2 mx-auto sm:px-6 lg:px-8 m-2 flex my-4 md:my-8 justify-center flex'>
         <div>
             <img className='hidden sm:block w-52 md:w-full' src={man_adult} alt="" />
         </div>
