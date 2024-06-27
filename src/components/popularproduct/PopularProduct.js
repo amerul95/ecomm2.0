@@ -83,6 +83,34 @@ function SimpleSlider({images}) {
           </div>
         ))}
       </Slider>
+      <hr />
+      <div class="container mx-auto mt-10 flex gap-4 justify-center">
+      <div class="grid grid-rows-2 grid-flow-row gap-4 w-1/2">
+  <div class="row-span-1 col-span-2  shadow-lg rounded">
+    <img src="./images/Mask Group 6.png" alt="" />
+  </div>
+  <div class="row-span-1 col-span-1 shadow-lg rounded ">
+    <img src="./images/mask Group 7.png" alt="" />
+  </div>
+  <div class="row-span-1 col-span-1 shadow-lg rounded ">
+    <img src="./images/Image 30.png" alt="" />
+  </div>
+</div>
+<div class="grid grid-rows-2 grid-flow-row gap-4 w-1/2">
+  <div class="row-span-1 col-span-1 shadow-lg rounded relative">
+    <img className='absolute' src="./images/Mask Group 5.png" alt="" />
+
+  </div>
+  <div class="row-span-1 col-span-1 shadow-lg rounded">
+    <img src="./images/Image 29.png" alt="" />
+  </div>
+  <div class="row-span-1 col-span-2 shadow-lg rounded ">
+    <img src="./images/Group 658.png" alt="" />
+  </div>
+</div>
+
+</div>
+
     </div>
   );
 }
